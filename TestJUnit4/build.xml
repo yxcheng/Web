@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="JUnitAllTests" name="TestJUnit4">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="C:/Program Files/MyEclipse 7.0M1/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+     <property name="junit.output.dir" value="junit"/>
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+    <path id="TestJUnit4.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="lib/junit-4.5.jar"/>
+    </path>  
+    
+    <target name="JUnitAllTests">
+	 	    <delete dir="${junit.output.dir}"/>
+	        <mkdir dir="${junit.output.dir}"/>
+	        <junit fork="yes" printsummary="withOutAndErr">
+	            <formatter type="xml"/>
+	        	<batchtest fork="yes" todir="${junit.output.dir}">
+	        		    <fileset dir="test">
+	        		      <include name="**/*Test*.java"/>
+	        		      <exclude name="**/AllTests.java"/>
+	        		    </fileset>
+	        		  </batchtest>
+	            <classpath refid="TestJUnit4.classpath"/>
+	          
+	        </junit>
+	 	 <antcall target="junitreport"/>
+	    </target>
+	
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+    
+</project>

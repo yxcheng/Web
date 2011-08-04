@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="8b169e5839024d7" name="com.withub.sample.Test" tests="1" time="0.0" timestamp="2011-08-02T01:51:19">
+  <properties>
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="org.osgi.framework.executionenvironment" value="OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JRE-1.1,J2SE-1.2,J2SE-1.3,J2SE-1.4,J2SE-1.5,JavaSE-1.6" />
+    <property name="osgi.framework" value="file:/c:/Documents and Settings/Administrator/桌面/eclipse3.7/plugins/org.eclipse.osgi_3.7.0.v20110613.jar" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.6.0_05" />
+    <property name="eclipse.application" value="org.eclipse.ui.ide.workbench" />
+    <property name="org.eclipse.debug.ui.breakpoints.toggleFactoriesUsed" value="false" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.6.0_05\lib\endorsed" />
+    <property name="osgi.bundlestore" value="C:\Documents and Settings\Administrator\桌面\eclipse3.7\configuration\org.eclipse.osgi\bundles" />
+    <property name="ant.file.type.TestJUnit4" value="file" />
+    <property name="env.USERNAME" value="Administrator" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="ECLIPSE_HOME" value="C:/Program Files/MyEclipse 7.0M1/eclipse" />
+    <property name="sun.os.patch.level" value="Service Pack 3" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="env.COMPUTERNAME" value="8B169E5839024D7" />
+    <property name="java.version" value="1.6.0_05" />
+    <property name="eclipse.pdebuild.home" value="/C:/Documents and Settings/Administrator/桌面/eclipse3.7/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./" />
+    <property name="osgi.requiredJavaVersion" value="1.5" />
+    <property name="osgi.os" value="win32" />
+    <property name="org.eclipse.equinox.simpleconfigurator.configUrl" value="file:org.eclipse.equinox.simpleconfigurator/bundles.info" />
+    <property name="org.osgi.framework.uuid" value="90cead76-a6bc-0010-1e25-e3d0490c0571" />
+    <property name="osgi.splashPath" value="platform:/base/plugins/org.eclipse.platform" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="env.USERPROFILE" value="C:\Documents and Settings\Administrator" />
+    <property name="ant.project.invoked-targets" value="JUnitAllTests" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="user.name" value="Administrator" />
+    <property name="org.osgi.framework.version" value="1.6.0" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="org.osgi.framework.system.packages" value="javax.accessibility,javax.activation,javax.activity,javax.annotation,javax.annotation.processing,javax.crypto,javax.crypto.interfaces,javax.crypto.spec,javax.imageio,javax.imageio.event,javax.imageio.metadata,javax.imageio.plugins.bmp,javax.imageio.plugins.jpeg,javax.imageio.spi,javax.imageio.stream,javax.jws,javax.jws.soap,javax.lang.model,javax.lang.model.element,javax.lang.model.type,javax.lang.model.util,javax.management,javax.management.loading,javax.management.modelmbean,javax.management.monitor,javax.management.openmbean,javax.management.relation,javax.management.remote,javax.management.remote.rmi,javax.management.timer,javax.naming,javax.naming.directory,javax.naming.event,javax.naming.ldap,javax.naming.spi,javax.net,javax.net.ssl,javax.print,javax.print.attribute,javax.print.attribute.standard,javax.print.event,javax.rmi,javax.rmi.CORBA,javax.rmi.ssl,javax.script,javax.security.auth,javax.security.auth.callback,javax.security.auth.kerberos,javax.security.auth.login,javax.security.auth.spi,javax.security.auth.x500,javax.security.cert,javax.security.sasl,javax.sound.midi,javax.sound.midi.spi,javax.sound.sampled,javax.sound.sampled.spi,javax.sql,javax.sql.rowset,javax.sql.rowset.serial,javax.sql.rowset.spi,javax.swing,javax.swing.border,javax.swing.colorchooser,javax.swing.event,javax.swing.filechooser,javax.swing.plaf,javax.swing.plaf.basic,javax.swing.plaf.metal,javax.swing.plaf.multi,javax.swing.plaf.synth,javax.swing.table,javax.swing.text,javax.swing.text.html,javax.swing.text.html.parser,javax.swing.text.rtf,javax.swing.tree,javax.swing.undo,javax.tools,javax.transaction,javax.transaction.xa,javax.xml,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.bind.helpers,javax.xml.bind.util,javax.xml.crypto,javax.xml.crypto.dom,javax.xml.crypto.dsig,javax.xml.crypto.dsig.dom,javax.xml.crypto.dsig.keyinfo,javax.xml.crypto.dsig.spec,javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.soap,javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stax,javax.xml.transform.stream,javax.xml.validation,javax.xml.ws,javax.xml.ws.handler,javax.xml.ws.handler.soap,javax.xml.ws.http,javax.xml.ws.soap,javax.xml.ws.spi,javax.xml.ws.wsaddressing,javax.xml.xpath,org.ietf.jgss,org.omg.CORBA,org.omg.CORBA_2_3,org.omg.CORBA_2_3.portable,org.omg.CORBA.DynAnyPackage,org.omg.CORBA.ORBPackage,org.omg.CORBA.portable,org.omg.CORBA.TypeCodePackage,org.omg.CosNaming,org.omg.CosNaming.NamingContextExtPackage,org.omg.CosNaming.NamingContextPackage,org.omg.Dynamic,org.omg.DynamicAny,org.omg.DynamicAny.DynAnyFactoryPackage,org.omg.DynamicAny.DynAnyPackage,org.omg.IOP,org.omg.IOP.CodecFactoryPackage,org.omg.IOP.CodecPackage,org.omg.Messaging,org.omg.PortableInterceptor,org.omg.PortableInterceptor.ORBInitInfoPackage,org.omg.PortableServer,org.omg.PortableServer.CurrentPackage,org.omg.PortableServer.POAManagerPackage,org.omg.PortableServer.POAPackage,org.omg.PortableServer.portable,org.omg.PortableServer.ServantLocatorPackage,org.omg.SendingContext,org.omg.stub.java.rmi,org.w3c.dom,org.w3c.dom.bootstrap,org.w3c.dom.css,org.w3c.dom.events,org.w3c.dom.html,org.w3c.dom.ls,org.w3c.dom.ranges,org.w3c.dom.stylesheets,org.w3c.dom.traversal,org.w3c.dom.views,org.w3c.dom.xpath,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers" />
+    <property name="env.PERL5LIB" value="C:\oracle\product\10.2.0\db\perl\5.8.3\lib\MSWin32-x86;C:\oracle\product\10.2.0\db\perl\5.8.3\lib;C:\oracle\product\10.2.0\db\perl\5.8.3\lib\MSWin32-x86;C:\oracle\product\10.2.0\db\perl\site\5.8.3;C:\oracle\product\10.2.0\db\perl\site\5.8.3\lib;C:\oracle\product\10.2.0\db\sysman\admin\scripts;" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="osgi.instance.area.default" value="file:/C:/Documents and Settings/Administrator/workspace/" />
+    <property name="eclipse.launcher.name" value="Eclipse" />
+    <property name="eclipse.product" value="org.eclipse.epp.package.jee.product" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="org.osgi.supports.framework.fragment" value="true" />
+    <property name="user.timezone" value="" />
+    <property name="org.osgi.framework.system.capabilities" value="osgi.ee; osgi.ee=&quot;OSGi/Minimum&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1, 1.2&quot;,osgi.ee; osgi.ee=&quot;JavaSE&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6&quot;" />
+    <property name="osgi.nl" value="zh_CN" />
+    <property name="path.separator" value=";" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 15 Model 6 Stepping 5, GenuineIntel" />
+    <property name="file.encoding" value="GBK" />
+    <property name="osgi.arch" value="x86" />
+    <property name="ant.project.default-target" value="JUnitAllTests" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+    <property name="env.APPDATA" value="C:\Documents and Settings\Administrator\Application Data" />
+    <property name="ant.file" value="D:\WorkSpace\TestJUnit4\build.xml" />
+    <property name="org.osgi.supports.framework.requirebundle" value="true" />
+    <property name="osgi.bundles.defaultStartLevel" value="4" />
+    <property name="osgi.bundles" value="reference:file:javax.transaction_1.1.1.v201105210645.jar,reference:file:org.eclipse.equinox.weaving.hook_1.0.100.HEAD.jar,reference:file:org.eclipse.equinox.simpleconfigurator_1.0.200.v20110502-1955.jar@1:start" />
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\" />
+    <property name="org.osgi.framework.os.name" value="WindowsXP" />
+    <property name="equinox.use.ds" value="true" />
+    <property name="user.language" value="zh" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="target" value="1.5" />
+    <property name="org.osgi.framework.processor" value="x86" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="osgi.manifest.cache" value="C:\Documents and Settings\Administrator\桌面\eclipse3.7\configuration\org.eclipse.osgi\manifests" />
+    <property name="source" value="1.5" />
+    <property name="osgi.splashLocation" value="C:\Documents and Settings\Administrator\桌面\eclipse3.7\\plugins\org.eclipse.platform_3.7.0.v201106131736\splash.bmp" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.DEFAULT_CA_NR" value="CA100" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH" />
+    <property name="guice.disable.misplaced.annotation.check" value="true" />
+    <property name="eclipse.vm" value="C:/Program Files/Java/jre1.6.0_05/bin\client\jvm.dll" />
+    <property name="env.LOGONSERVER" value="\\8B169E5839024D7" />
+    <property name="eclipse.pdebuild.templates" value="/C:/Documents and Settings/Administrator/桌面/eclipse3.7/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/" />
+    <property name="osgi.configuration.area" value="file:/C:/Documents and Settings/Administrator/桌面/eclipse3.7/configuration/" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="env.USERDOMAIN" value="8B169E5839024D7" />
+    <property name="osgi.ws" value="win32" />
+    <property name="env.PROCESSOR_LEVEL" value="15" />
+    <property name="org.osgi.supports.framework.extension" value="true" />
+    <property name="eclipse.p2.data.area" value="@config.dir/../p2/" />
+    <property name="osgi.framework.extensions" value="reference:file:javax.transaction_1.1.1.v201105210645.jar,reference:file:org.eclipse.equinox.weaving.hook_1.0.100.HEAD.jar" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="org.osgi.framework.language" value="zh" />
+    <property name="os.name" value="Windows XP" />
+    <property name="eclipse.home.location" value="file:/C:/Documents and Settings/Administrator/桌面/eclipse3.7/" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="eclipse.vmargs" value="-Dosgi.requiredJavaVersion=1.5&#xa;-Xms40m&#xa;-Xmx512m&#xa;-XX:MaxPermSize=256m&#xa;-Djava.class.path=C:\Documents and Settings\Administrator\桌面\eclipse3.7\\plugins/org.eclipse.equinox.launcher_1.2.0.v20110502.jar&#xa;" />
+    <property name="env.TMP" value="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="eclipse.buildId" value="I20110613-1736" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.6.0_05\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.6.0_05/bin/client;C:/Program Files/Java/jre1.6.0_05/bin;C:/Program Files/Java/jre1.6.0_05/lib/i386;C:/Program Files/Java/jre1.6.0_05/bin/client;C:/Program Files/Java/jre1.6.0_05/bin;C:/Program Files/Java/jre1.6.0_05/lib/i386;C:\oracle\product\10.2.0\client\bin;C:\oracle\product\10.2.0\db\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Common Files\Teleca Shared;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;D:\Program Files\UltraEdit\;C:\Documents and Settings\Administrator\桌面\eclipse3.7;;C:\Program Files\Java\jre1.6.0_05\lib;" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/Documents and Settings/Administrator/桌面/eclipse3.7/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="eclipse.commands" value="-os&#xa;win32&#xa;-ws&#xa;win32&#xa;-arch&#xa;x86&#xa;-showsplash&#xa;C:\Documents and Settings\Administrator\桌面\eclipse3.7\\plugins\org.eclipse.platform_3.7.0.v201106131736\splash.bmp&#xa;-launcher&#xa;C:\Documents and Settings\Administrator\桌面\eclipse3.7\eclipse.exe&#xa;-name&#xa;Eclipse&#xa;--launcher.library&#xa;C:\Documents and Settings\Administrator\桌面\eclipse3.7\\plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.1.100.v20110502\eclipse_1406.dll&#xa;-startup&#xa;C:\Documents and Settings\Administrator\桌面\eclipse3.7\\plugins/org.eclipse.equinox.launcher_1.2.0.v20110502.jar&#xa;--launcher.overrideVmargs&#xa;-product&#xa;org.eclipse.epp.package.jee.product&#xa;-vm&#xa;C:/Program Files/Java/jre1.6.0_05/bin\client\jvm.dll&#xa;" />
+    <property name="basedir" value="D:\WorkSpace\TestJUnit4" />
+    <property name="java.class.version" value="50.0" />
+    <property name="osgi.syspath" value="c:\Documents and Settings\Administrator\桌面\eclipse3.7\plugins" />
+    <property name="ant.home" value="C:\Documents and Settings\Administrator\桌面\eclipse3.7\plugins\org.apache.ant_1.8.2.v20110505-1300" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.6.0_05/bin/client;C:/Program Files/Java/jre1.6.0_05/bin;C:/Program Files/Java/jre1.6.0_05/lib/i386;C:/Program Files/Java/jre1.6.0_05/bin/client;C:/Program Files/Java/jre1.6.0_05/bin;C:/Program Files/Java/jre1.6.0_05/lib/i386;C:\oracle\product\10.2.0\client\bin;C:\oracle\product\10.2.0\db\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Common Files\Teleca Shared;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;D:\Program Files\UltraEdit\;C:\Documents and Settings\Administrator\桌面\eclipse3.7;;C:\Program Files\Java\jre1.6.0_05\lib;" />
+    <property name="org.eclipse.equinox.launcher.splash.location" value="C:\Documents and Settings\Administrator\桌面\eclipse3.7\\plugins\org.eclipse.platform_3.7.0.v201106131736\splash.bmp" />
+    <property name="ant.file.TestJUnit4" value="D:\WorkSpace\TestJUnit4\build.xml" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="osgi.instance.area" value="file:/D:/WorkSpace/" />
+    <property name="osgi.install.area" value="file:/C:/Documents and Settings/Administrator/桌面/eclipse3.7/" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.6.0_05\bin" />
+    <property name="env.PROCESSOR_REVISION" value="0605" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="user.variant" value="" />
+    <property name="ant.project.name" value="TestJUnit4" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="eclipse.running" value="true" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="org.eclipse.update.reconcile" value="false" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.6.0_05\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="osgi.framework.version" value="3.7.0.v20110613" />
+    <property name="os.version" value="5.1" />
+    <property name="eclipse.launcher" value="C:\Documents and Settings\Administrator\桌面\eclipse3.7\eclipse.exe" />
+    <property name="user.home" value="C:\Documents and Settings\Administrator" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="org.apache.commons.logging.Log" value="org.apache.commons.logging.impl.NoOpLog" />
+    <property name="env.JAVA_HOME" value="D:\esendev\jdk1.5" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="user.dir" value="C:\Program Files\Java\jre1.6.0_05\lib" />
+    <property name="org.osgi.framework.os.version" value="5.1.0" />
+    <property name="osgi.framework.shape" value="jar" />
+    <property name="eclipse.home" value="C:\Documents and Settings\Administrator\桌面\eclipse3.7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.ALLUSERSPROFILE" value="C:\Documents and Settings\All Users" />
+    <property name="eclipse.startTime" value="1312248395843" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+    <property name="java.vm.version" value="10.0-b19" />
+    <property name="java.class.path" value="D:\WorkSpace\TestJUnit4\bin;D:\WorkSpace\TestJUnit4\lib\junit-4.5.jar;C:\Documents and Settings\Administrator\桌面\eclipse3.7\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-launcher.jar;C:\Documents and Settings\Administrator\桌面\eclipse3.7\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar;C:\Documents and Settings\Administrator\桌面\eclipse3.7\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit.jar;C:\Documents and Settings\Administrator\桌面\eclipse3.7\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit4.jar" />
+    <property name="env.=::" value="::\" />
+    <property name="env.HOMEPATH" value="\Documents and Settings\Administrator" />
+    <property name="ant.library.dir" value="C:\Documents and Settings\Administrator\桌面\eclipse3.7\plugins\org.apache.ant_1.8.2.v20110505-1300\lib" />
+    <property name="os.arch" value="x86" />
+    <property name="eclipse.p2.profile" value="epp.package.jee" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="org.osgi.framework.vendor" value="Eclipse" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="osgi.tracefile" value="D:\WorkSpace\.metadata\trace.log" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="ant.core.lib" value="C:\Documents and Settings\Administrator\桌面\eclipse3.7\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="file.separator" value="\" />
+    <property name="java.runtime.version" value="1.6.0_05-b13" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.6.0_05\lib\resources.jar;C:\Program Files\Java\jre1.6.0_05\lib\rt.jar;C:\Program Files\Java\jre1.6.0_05\lib\sunrsasign.jar;C:\Program Files\Java\jre1.6.0_05\lib\jsse.jar;C:\Program Files\Java\jre1.6.0_05\lib\jce.jar;C:\Program Files\Java\jre1.6.0_05\lib\charsets.jar;C:\Program Files\Java\jre1.6.0_05\classes" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.TEMP" value="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp" />
+    <property name="osgi.frameworkClassPath" value="., file:c:/Documents and Settings/Administrator/桌面/eclipse3.7/plugins/javax.transaction_1.1.1.v201105210645.jar, file:c:/Documents and Settings/Administrator/桌面/eclipse3.7/plugins/org.eclipse.equinox.weaving.hook_1.0.100.HEAD.jar" />
+    <property name="user.country" value="CN" />
+    <property name="env.CLIENTNAME" value="Console" />
+    <property name="osgi.logfile" value="D:\WorkSpace\.metadata\.log" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="java.specification.version" value="1.6" />
+    <property name="sun.arch.data.model" value="32" />
+  </properties>
+  <error message="com.withub.sample.Test" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: com.withub.sample.Test
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
