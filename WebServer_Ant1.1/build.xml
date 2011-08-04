@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="JUnitAllTests" name="WebServer_Ant">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="C:\Documents and Settings\Administrator\桌面\eclipse3.7"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+     <property name="junit.output.dir" value="junit"/>
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+    <path id="WebServer.classpath">
+        <pathelement location="bin"/>
+    	<pathelement location="lib/junit.jar"/>
+    	<pathelement location="lib/org.hamcrest.core_1.jar"/>
+    	<pathelement location="lib/logback-classic-0.9.29.jar"/>
+    	<pathelement location="lib/logback-core-0.9.29.jar"/>
+    	<pathelement location="lib/slf4j-api-1.6.1.jar"/>
+    </path>  
+    
+    <target name="JUnitAllTests">
+	 	    <delete dir="${junit.output.dir}"/>
+	        <mkdir dir="${junit.output.dir}"/>
+    	    <junit fork="yes" printsummary="withOutAndErr">
+    		     <formatter type="xml"/>
+    		     <batchtest fork="yes" todir="${junit.output.dir}">
+    		       <fileset dir="test">
+    		         <include name="**/*Test*.java"/>
+    		         <exclude name="**/AllTests.java"/>
+    		       </fileset>
+    		      </batchtest>
+    		      <classpath refid="WebServer.classpath"/>
+    		          
+    		 </junit>
+	 	 <antcall target="junitreport"/>
+	    </target>
+	<target name="junitreport">
+	        <junitreport todir="${junit.output.dir}">
+	            <fileset dir="${junit.output.dir}">
+	                <include name="TEST-*.xml"/>
+	            </fileset>
+	            <report format="frames" todir="${junit.output.dir}"/>
+	        </junitreport>
+	    </target>
+	
+    
+    
+</project>
